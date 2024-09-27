@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="">
+            <h3> List- drop down </h3>
+
+            <label for="city_id"> Cities </label>
+
+            <select name="city" id="city_id">
+                <option value=""> lahore </option>
+                <option > karachi dlkfjsd lsjdlf ssldkfjs </option>
+                <option value="sialkot"> Sialkot </option>
+            </select>
+
+            <h3> option groups </h3>
+
+            <label for="cities_id"> City </label>
+            <select name="cities" id="cities_id">
+
+                <optgroup label="Punjab" >
+                    <option value="lahore"> lahore </option>
+                    <option value="Sialkot"> Sialkot </option>
+                </optgroup>
+
+                <optgroup label="Sindh">
+                    <option value="Karachi"> Karachi </option>
+                    <option value="Hyderabad"> Hyderabad </option>
+                </optgroup>
+
+                <optgroup label="KPK">
+                    <option value="peshawar"> peshawar </option>
+                    <option value="sawat"> sawat </option>
+                </optgroup>
+                
+                <optgroup label="Balochistan" >
+                    <option value="Quetta"> Quetta </option>
+                    <option value="Gawadar"> Gawadar </option>
+                </optgroup>
+            </select>
+            <button> submit </button>
+        </form>
+
+
+        <h1> Fieldset forms </h1>
+        <form action="">
+
+            <fieldset>
+                <legend> Your Address </legend>
+
+                <label for="first_name_id">First Name </label>
+                <input type="text" name="first_name" id="first_name_id">
+                <br>
+    
+                <label for="last_name_id">Last Name </label>
+                <input type="text" name="last_name" id="last_name_id">
+                <br>
+    
+                <label for="street_id">Street </label>
+                <input type="text" name="street" id="street_id">
+                <br>
+    
+                <label for="city_id">city </label>
+                <input type="text" name="city" id="city_id">
+                <br>
+            </fieldset>
+
+
+            <button> Signup </button>
+        </form>
+
+
+        <hr>
+        <form action=""  target="_blank">
+            <input type="text" placeholder="Search" list="products" >
+            
+            <datalist id="products" >
+                <option value="ATTA">
+                <option value="Lays">
+                <option value="Kurkry">
+                <option value="Pepsii">
+                <option value="Fanta">
+            </datalist>
+            <button>Search</button>
+
+            <!--  SHow some result -->
+            <output> test </output>
+
+
+        </form>
+
+        <h1> attributes </h1>
+        <!-- attributes -->
+
+        <!-- novalidate -->
+        <!-- <form  novalidate> -->
+        <form  >
+
+            <!-- autocomplete -->
+            <label for="first_name_id">First Name </label>
+            <input type="text" name="first_name" id="first_name_id" autocomplete="off" >
+            <br>
+
+            <!-- required -->
+            <label for="last_name_id">Last Name </label>
+            <input type="text" name="last_name" id="last_name_id" required >
+            <br>
+
+            <!-- selected -->
+            <label for="city_id"> City </label>
+            <select name="city" id="city_id">
+                <option value="lahore"> lahore </option>
+                <option value="Sialkot"> Sialkot </option>
+                <option value="Karachi"> Karachi </option>
+                <option value="Hyderabad" selected> Hyderabad </option>
+            </select>
+            <br>
+
+            <!-- multiple -->
+            <label for="states_id"> states </label>
+            <select name="states" id="states_id" multiple>
+                <option value="lahore"> lahore </option>
+                <option value="Sialkot"> Sialkot </option>
+                <option value="Karachi"> Karachi </option>
+                <option value="Hyderabad"> Hyderabad </option>
+            </select>
+            <br>
+
+            <!-- readonly -->
+            <input type="text" name="email"  placeholder="Email" value="abc@gmail.com" readonly>
+            <br>
+
+            <!-- disabled -->
+            <input type="text" name="email"  placeholder="Email" value="abc@gmail.com" disabled>
+            <br>
+
+             <!-- size -->
+             <input type="text" name="email"  placeholder="Email" size="10" >
+             <br>
+
+            <!-- maxlength -->
+            <input type="text" name="email"  placeholder="Email" maxlength="10" >
+            <br>
+
+            <!-- min -->
+            <input type="number" name="age"  placeholder="age" min="13" >
+            <br>
+
+            <!-- max -->
+            <input type="number" name="age"  placeholder="age" max="65" >
+            <br>
+
+            <!-- min max -->
+            <input type="number" name="age"  placeholder="age" min="13" max="65" >
+            <br>
+
+
+            <!-- step -->
+            <input type="number" name="price"  placeholder="Price" step="0.1" >
+            <br>
+ 
+
+            <!-- pattern -->
+            <input type="text" name="pattern"  placeholder="pattern" pattern="[a-z0-9]+" >
+            <br>
+
+
+
+            <!-- file -->
+            <input type="file" >
+
+
+
+
+
+            <button> Signup </button>
+
+        </form>
+
+
+
+
+    </body>
+</html>
