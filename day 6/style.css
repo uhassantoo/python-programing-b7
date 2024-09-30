@@ -1,0 +1,24 @@
+/* css comments */
+/*  style by tag name 
+h1 {
+    color: red;
+}
+*/
+
+/* style by id */
+#on-page {
+    color: green;
+}
+
+/* style by class */
+
+.on-page-class {
+    color:blueviolet;
+}
+
+
+
+#Precedence {
+    background-color: aqua;
+    color: red;
+}

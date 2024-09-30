@@ -1,0 +1,86 @@
+
+<!-- css syntax -->
+<!-- selector { property }
+
+tag name
+id
+class {
+    property name : value
+    background-color : red;
+    color : white
+} -->
+
+<!-- ways to implement css -->
+<!-- in line -->
+<!-- in page -->
+<!-- external -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Style</title>
+        <link rel="stylesheet" href="./style.css">
+
+
+        <!-- <style>
+            /* css comments */
+            /*  style by tag name 
+            h1 {
+                color: red;
+            }
+            */
+
+            /* style by id */
+            #on-page {
+                color: green;
+            }
+
+            /* style by class */
+
+            .on-page-class {
+                color:blueviolet;
+            }
+        </style> -->
+
+        <!-- inline - on page - external -->
+
+        <style>
+            #Precedence {
+                background-color: blue;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <h1 style="background-color: aqua; " >In line CSS</h1>
+
+        <div style="background-color: aqua; " >
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab rem architecto, asperiores dicta repudiandae facere corporis optio temporibus voluptas deserunt cupiditate beatae delectus ipsum repellendus quos debitis aliquid! Laboriosam.</p>
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab rem architecto, asperiores dicta repudiandae facere corporis optio temporibus voluptas deserunt cupiditate beatae delectus ipsum repellendus quos debitis aliquid! Laboriosam.</p>
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab rem architecto, asperiores dicta repudiandae facere corporis optio temporibus voluptas deserunt cupiditate beatae delectus ipsum repellendus quos debitis aliquid! Laboriosam.</p>
+            <p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab rem architecto, asperiores dicta repudiandae facere corporis optio temporibus voluptas deserunt cupiditate beatae delectus ipsum repellendus quos debitis aliquid! Laboriosam.</p>
+        </div>
+
+        <h1 id="on-page"> On page css  </h1>
+
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+        <h1 class="on-page-class"> On page css using class </h1>
+
+
+        <h1 id="Precedence" style=" background-color:brown" > Precedence testing </h1>
+
+
+
+    </body>
+</html>
