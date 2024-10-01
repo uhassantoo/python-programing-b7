@@ -1,0 +1,113 @@
+/* h1, p {
+    text-align: left;
+    text-align: right;
+    text-align: center;
+} */
+
+/* p {
+    text-align: center;
+} */
+
+.align-heading, .align-body {
+    text-align: center;
+    color:red;
+}
+
+.align-last-line {
+    text-align-last: left;
+    text-align-last: right;
+    text-align-last: center;
+}
+
+.text-color {
+    /* color: chartreuse; */
+    /* color: #0384fc; */
+    /* color: #000; */
+    /* color: #ffffff; */
+    /* color: #fff; */
+    color: rgb(150,0,255);
+}
+
+.text-decoration {
+    /* text line properties */
+    /* text-decoration-line: line-through; */
+    text-decoration-line:underline;
+    /* text-decoration-line:overline; */
+    /* text-decoration-line:none; */
+    
+    /* text line color properties */
+    text-decoration-color: crimson;
+    
+    /* text line style properties */
+    text-decoration-style: solid;
+    /* text-decoration-style: dashed;
+    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+    text-decoration-style: double; */
+    
+    /* text line thickness properties */
+    text-decoration-thickness: 1px;
+
+    text-decoration: overline red wavy 5px;
+}
+
+.text-transform {
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: none; */
+}
+
+.formatting-paragraph {
+    text-indent: 10%;
+    text-indent: 30%;
+
+    /* add space between lines */
+    line-height: 20px;
+
+    /* add space between letters */
+    letter-spacing: 2px;
+
+    /* add space between words */
+    word-spacing: 5px;
+
+}
+
+.font {
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+    /* font size */
+    font-size: x-large;
+    font-size: 50px;
+
+    /* font style */
+    font-style: oblique;
+    font-style: italic;
+
+
+    /* font weight */
+    /* font-weight: bolder; */
+    font-weight: 900;
+    font-weight: 500;
+
+}
+
+.shadow {
+    /* text-shadow: horizontal_value  vertical_value blur color; */
+
+    /* text-shadow: 10px 10px 15px red; */
+
+    /* text-shadow: 10px 10px 10px red , 15px 15px 15px blue    ; */
+
+    /* top shadow */
+    text-shadow: -10px -10px 10px green;
+
+}
+
+
+
+
+
+
+
