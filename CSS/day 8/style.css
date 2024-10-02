@@ -1,0 +1,94 @@
+#square {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+#border {
+    border-width: 2px ;
+    border-style: dashed;
+    border-color: red;
+
+    height: 200px;
+    width: 200px;
+}
+
+#padding {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+
+    /* padding: 20px;
+    padding: 20px 100px; */
+    /* padding: y-axis x-axis; */
+
+    /* padding: 50px 100px 150px 200px ; */
+    /* padding: top right bottom left  ; */
+
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 300px;
+    padding-bottom: 400px;
+
+}
+
+#margin {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+
+    /* margin: 20px; */
+    /* margin: 20px 100px; */
+    /* margin: 50px 100px 200px 500px ; */
+
+
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-right: 300px;
+    margin-bottom: 400px;
+
+
+}
+
+#shadow {
+    box-shadow: 10px 10px 10px red;
+    box-shadow: 10px 10px 10px red , 20px 20px 10px green;
+    box-shadow: 20px 20px 10px green, -10px -10px 10px red;
+    box-shadow: -10px -10px 10px red;
+}
+
+.box {
+    border: 2px solid black;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+.background {
+    /* background-color: aqua; */
+    /* background-image: url('../../bird1.png'); */
+    /* background: red ; */
+    /* background: url('../../sec-bg-img.jpg'); */
+
+    background: url('./download.jfif');
+    
+    /* background-repeat: repeat; */
+    background-repeat:no-repeat;
+    /* background-repeat:repeat-x; */
+    /* background-repeat:repeat-y; */
+
+    /* background-position: right; */
+    /* background-position: center; */
+    /* background-position: right top; */
+    /* background-position: right center; */
+    /* background-position: right center; */
+    /* background-position: center bottom; */
+
+    /* background-position-x: right;
+    background-position-y: bottom; */
+
+    background-size: 1000px 1000px ;
+}
+
+
+
