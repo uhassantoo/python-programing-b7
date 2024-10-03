@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Units</title>
+
+        <!-- on page style -->
+        <style>
+            
+            
+            .border {
+                border: 2px solid red;
+            }
+            .size {
+                height: 500px;
+                width: 500px ;
+            }
+            
+            .overflow {
+                /* manage the orverflow data */
+                overflow: visible;
+                overflow: hidden;
+                overflow: scroll;
+            }
+            
+            .unit-em {
+                font-size: 10px;
+                
+                height: 100em;
+                width: 100em;
+            }
+            
+            html {
+                font-size: 16px;
+            }
+
+            .unit-rem {
+                
+                height: 50rem;
+                width: 50rem;
+            }
+            
+            .unit-vh {
+                height: 75vh;
+                width: 100vh;
+            }
+
+            .unit-vw {
+                height: 50vw;
+                width: 100vw;
+            }
+
+            .unit-vw-vh {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .unit-perc {
+                height: 100%;
+                width: 50%;
+            }
+
+            .parent {
+                height: 500px;
+                width: 50vw;
+            }
+
+            .child {
+                height: 50%;
+                width: 50%;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1> Over flow </h1>
+        <div class="border overflow size " >
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi velit ducimus debitis est sed suscipit rerum, inventore blanditiis hic aliquam ea molestiae consequuntur doloremque consectetur harum aperiam ratione temporibus nemo?
+                Voluptatem cum quos iure pariatur molestias quo expedita vero natus? Quo tempore accusantium doloribus minima harum perferendis incidunt nesciunt iusto alias. Officia, deleniti ipsa ut vero molestiae enim consequatur obcaecati.
+                Minima, earum eum aperiam dolor dolorem, veritatis unde ad ipsum sequi harum aliquid eaque blanditiis commodi eveniet delectus iusto illo animi molestias velit repudiandae rem! Praesentium alias exercitationem quidem fuga.
+                Perferendis non quo porro veniam repellendus aliquam magnam alias quasi voluptate, voluptatibus repudiandae quisquam atque distinctio! Doloremque, ex! Temporibus placeat fugit eligendi expedita provident hic deserunt repellendus similique quae aspernatur!
+                Veritatis repudiandae atque iusto culpa magnam inventore ex, provident blanditiis accusamus qui, quia commodi quibusdam dolore iste excepturi reprehenderit similique expedita quam tempore eius? Temporibus veritatis voluptas dolorum tempore esse.
+            </p>
+        </div>
+
+        <h1>Units</h1>
+        <h3> px - pixels </h3>
+        <div class="border" >
+
+        </div>
+
+        <h3> em  </h3>
+
+        <div class="unit-em border">
+
+        </div>
+
+        <h3> rem  </h3>
+
+        <div class="unit-rem border">
+
+        </div>
+
+        <h3> VH  </h3>
+
+        <div class="unit-vh border">
+
+        </div>
+
+        <h3> VW  </h3>
+        
+        <div class="unit-vw border">
+            
+        </div>
+        
+        <h3> VW - Vh  </h3>
+        <div class="unit-vw-vh border">
+
+        </div>
+
+
+        <h3> % - percentage  </h3>
+        <div class="unit-perc border">
+
+        </div>
+
+        <h1> example </h1>
+        
+        <div class="parent border" >
+            <div class="child border">
+
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>

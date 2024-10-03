@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Positions</title>
+    <style>
+        .border {
+            border: 2px solid green;  
+        }
+
+        .static {
+            width: 200px;
+            height: 200px;
+            /*
+            left , right
+            top, bottom 
+            right: 100px;
+            top: 200px;
+            
+            */ 
+            left: 200px;
+            bottom: 100px;
+            position: static;
+
+
+        }
+
+        .relative {
+            width: 200px;
+            height: 200px;
+            /*
+            left , right
+            top, bottom 
+            right: 100px;
+            top: 200px;
+            
+            */ 
+            left: 200px;
+            top: 100px;
+            position: relative ;
+
+
+        }
+
+        .fixed {
+            height: 50px;
+            width: 300px;
+            position: fixed;
+            /* 
+            top: 0;
+            bottom: 0;
+            left: 0;
+
+            */
+            right: 20px;
+            bottom: 20px;
+
+        }
+
+
+
+
+    </style>
+    
+    </head>
+    <body>
+        <h1>position</h1>
+        <h1> static - default </h1>
+        <div class="static border">
+            <p style="text-align: center;"> static </p>
+        </div>
+        
+        
+        <h1> relative</h1>
+        <div class="relative border">
+            <p> relative </p>
+
+        </div>
+
+        <h1> Fixed</h1>
+        <div class="fixed border">
+            <p> Fixed </p>
+        </div>
+
+
+
+
+
+
+    </body>
+</html>
