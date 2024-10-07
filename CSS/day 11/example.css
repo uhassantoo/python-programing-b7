@@ -1,0 +1,38 @@
+.container{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+#box1 {
+    order: 3;
+    background-color: red;
+}
+#box2 {
+    order: -5;
+    align-self: center;
+    background-color: aqua;
+}
+#box3 {
+   order: 1;
+   flex-grow: 2;
+   background-color: blueviolet;
+}
+#box4 {
+    order: 4;
+    flex-grow: 3;
+    background-color: yellow;
+}
+#box5{
+    align-self: flex-end;
+    background-color: aquamarine;
+}
+#box6{
+    order: 4;
+    align-self: flex-end;
+    background-color: greenyellow;
+}
