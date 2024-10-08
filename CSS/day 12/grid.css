@@ -1,0 +1,42 @@
+.grid-container{
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: grid;
+    /* grid-template-rows: auto auto auto auto; */
+    grid-template-columns: auto auto auto auto;
+    gap: 25px ;
+    
+}
+#grid-item1{
+    background-color: antiquewhite;
+    color: black;
+}
+#grid-item2{
+    background-color: violet;
+    color: black;
+}
+#grid-item3{
+    background-color: aqua;
+    color: black;
+}
+#grid-item4{
+    background-color: greenyellow;
+    color: black;
+}
+#grid-item5{
+    background-color: gray;
+    color: black;
+}
+#grid-item6{
+    background-color: burlywood;
+    color: black;
+}
+#grid-item7{
+    background-color: pink;
+    color: black;
+}
+#grid-item8{
+    background-color: red;
+    color: black;
+}
