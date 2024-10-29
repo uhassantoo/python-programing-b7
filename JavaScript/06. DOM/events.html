@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body>
+    <h1>Common Events</h1>
+    <h2>Onclick</h2>
+    <button type="button" onclick="greet()">Please Click Me</button>
+
+    <h2>Onkeyup</h2>
+    Enter the first name <input type="text" id="firstname" onkeyup="keyup()">
+    <p>My First Name is: <span id="sp"></span></p>
+
+    <h2>Onmouse Over</h2>
+    <h1 id="m" onmouseover="mouse()">Test Me Mouse Over</h1>
+
+    <h2>Add Event Listiner</h2>
+    <button id="click2">Click Function</button>
+
+    <img onmouseover="big(this)" onmouseout="normal(this)" src="./smiley.gif" alt="">
+
+    <h2>Onfocus With addeventlitner</h2>
+
+    <form action="">
+        <input type="text" id="uname" name="uname" placeholder="Enter Your Username">
+        <input type="password" id="paswword" name="password" placeholder="Enter your Password">
+    </form>
+
+    <script src="./events.js"></script>
+</body>
+</html>

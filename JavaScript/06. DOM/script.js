@@ -29,3 +29,12 @@ new2.innerText = 'Hi this is underline text'
 
 
 document.getElementById('p_style').appendChild(new2)
+
+
+// Remove any tag from document
+
+
+function removebtn(){
+    let item = document.getElementById('p_remove')
+    item.remove()
+}
