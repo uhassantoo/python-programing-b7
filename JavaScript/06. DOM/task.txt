@@ -1,0 +1,11 @@
+1. create a color picker that changes the background color of a page element based on user selections.
+
+2. create a button that changes its background color when clicked.
+
+3.  build a counter that increments when a button is clicked and displays the count on the page.
+
+4.  create a button that enlarges the image when clicked
+
+5. create a list of items. implement a way to remove an item when it is clicked.
+
+6.  implement a form that dynamically adds new input fields when a button is clicked
