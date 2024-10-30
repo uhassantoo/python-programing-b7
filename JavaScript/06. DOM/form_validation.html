@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        span{
+            color: red;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Signup</h1>
+    <form action="" id="form_user" >
+    <label for="first_name">First Name</label>
+    <input type="text" name="first_name" id="name" >
+    <span id="name_error"></span>
+
+    <hr>
+    <label for="last_name">Last Name</label>
+    <input type="text" name="last_name" id="lname">
+    <span id="lname_error"></span>
+    <hr>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age">
+    <span id="age_error"></span>
+    <hr>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <span id="email_error"></span>
+    <hr>
+    <label for="pwd1">Password</label>
+    <input type="password" name="pwd1" id="pwd1">
+    <span id="pwd1_error"></span>
+    <hr>
+    <label for="exp">Skills</label>
+     <input type="radio" name="experience" value="Fresher" id="fresher" checked>Fresher
+     <input type="radio" name="experience" value="experienced"  id="experienced">Experienced
+    <span id="name_error"></span>
+    <br>
+    <hr>
+    <button>Submit</button>
+</form>
+</body>
+<script src="./form.js"></script>
+</html>

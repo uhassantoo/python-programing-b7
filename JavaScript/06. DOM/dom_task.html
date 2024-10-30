@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>5. create a list of items. implement a way to remove an item when it is clicked.
+    </h4>
+     <ul>
+        <li class="items">item 1</li>
+        <li class="items">item 2</li>
+        <li class="items">item 3</li>
+        <li class="items">item 4</li>
+        <li class="items">item 5</li>
+     </ul>
+
+     <h4>3.  build a counter that increments when a button is clicked and displays the count on the page.</h4>
+     <hr>
+     <span id="counter"></span>
+     <button id="cbtn">Click on Increment</button>
+    <script>
+        let items = document.getElementsByClassName('items')
+        for(let i = 0; i<items.length; i++){
+            items[i].addEventListener('click', function(){
+                items[i].style.display = 'none'
+            })
+        }
+        
+        let counter_btn = document.getElementById('cbtn')
+        counter_btn.addEventListener('click', function(){
+            let counter_span = document.getElementById('counter')
+            let counter_value = counter_span.innerText
+
+            counter_value++
+            counter_span.innerText = counter_value
+        })
+
+    </script>
+</body>
+</html>
